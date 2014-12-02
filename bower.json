@@ -1,0 +1,25 @@
+{
+  "name": "input-placeholder-polyfill",
+  "version": "1.0.0",
+  "homepage": "https://github.com/christopherrolfe198/input-placeholder-polyfill",
+  "authors": [
+    "Christopher Rolfe <christopher.rolfe198@gmail.com>"
+  ],
+  "description": "A simple polyfill for IE8 and 9 that populates the value when empty",
+  "main": "dist/main.min.js",
+  "keywords": [
+    "input",
+    "placeholder",
+    "polyfill",
+    "IE8",
+    "IE9"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
