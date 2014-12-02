@@ -22,7 +22,7 @@ if (!('placeholder' in document.createElement("input"))) {
 
 	function hidePlaceholderOnFocus(event) {
 		target = (event.currentTarget) ? event.currentTarget : event.srcElement;
-		if (target.value == target.placeholder) {
+		if (target.value == target.getAttribute('placeholder')) {
 			target.value = '';
 		}
 	}
@@ -31,7 +31,7 @@ if (!('placeholder' in document.createElement("input"))) {
 		target = (event.currentTarget) ? event.currentTarget : event.srcElement;
 
 		if (target.value == '') {
-			target.value = target.placeholder;
+			target.value = target.getAttribute('placeholder');
 		}
 	}
 }
