@@ -1,0 +1,34 @@
+{
+  "name": "input-placeholder-polyfill",
+  "version": "1.0.0",
+  "description": "A simple polyfill for IE8 and 9 that populates the value when empty",
+  "main": "dist/main.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christopherrolfe198/input-placeholder-polyfill.git"
+  },
+  "keywords": [
+    "input",
+    "placeholder",
+    "polyfill",
+    "IE8",
+    "IE9"
+  ],
+  "author": "Christopher Rolfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christopherrolfe198/input-placeholder-polyfill/issues"
+  },
+  "homepage": "https://github.com/christopherrolfe198/input-placeholder-polyfill",
+  "devDependencies": {
+    "del": "^1.0.0",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-minify": "0.0.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglifyjs": "^0.5.0"
+  }
+}
